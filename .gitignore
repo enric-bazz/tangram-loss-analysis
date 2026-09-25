@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Data folder
+data/
+out/
+results/
+optuna_tests/
+ablation_study/
+addition_study/
+
+# VScode config
+.vscode/
+
+# TensorBoard logs
+tb_logs/
+
+# Lightning checkpoints and logs
+checkpoints/
+lightning_logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data filetypes
+*.csv
+*.tsv
+*.xlsx
+*.h5ad
+*.h5
+*.gz
+*.png
